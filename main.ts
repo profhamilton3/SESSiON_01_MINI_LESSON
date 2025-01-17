@@ -40,6 +40,7 @@ strip.show()
 // 7 Use input buttons to control neopixel lights
 //  use the global strip object with button inputs
 input.onButtonPressed(Button.A, function on_button_pressed_a() {
+    
     strip.setPixelColor(0, NeoPixelColors.Indigo)
     strip.setPixelColor(1, NeoPixelColors.Indigo)
     strip.setPixelColor(2, NeoPixelColors.Indigo)
@@ -47,6 +48,7 @@ input.onButtonPressed(Button.A, function on_button_pressed_a() {
     strip.show()
 })
 input.onButtonPressed(Button.B, function on_button_pressed_b() {
+    
     strip.setPixelColor(0, NeoPixelColors.Black)
     strip.setPixelColor(1, NeoPixelColors.Black)
     strip.setPixelColor(2, NeoPixelColors.Black)

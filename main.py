@@ -43,6 +43,7 @@ strip.show()
 #7 Use input buttons to control neopixel lights
 # use the global strip object with button inputs
 def on_button_pressed_a():
+    global strip
     strip.set_pixel_color(0, NeoPixelColors.INDIGO)
     strip.set_pixel_color(1, NeoPixelColors.INDIGO)
     strip.set_pixel_color(2, NeoPixelColors.INDIGO)
@@ -52,6 +53,7 @@ def on_button_pressed_a():
 input.on_button_pressed(Button.A, on_button_pressed_a)
 
 def on_button_pressed_b():
+    global strip
     strip.set_pixel_color(0, NeoPixelColors.BLACK)
     strip.set_pixel_color(1, NeoPixelColors.BLACK)
     strip.set_pixel_color(2, NeoPixelColors.BLACK)
