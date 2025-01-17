@@ -8,13 +8,13 @@
 7.  Control wukong lights
 
  */
-//  1. Turn on LED Pixils
+//  1. Turn on LED Pixils in the grid
 basic.showLeds(`
 . . . . .
-. . . . .
+. # . # .
 . . # . .
-. . . . .
-. . . . .
+# . . . #
+. # # # .
 `)
 // 2. basic.show_icon(IconNames.HEART)
 // 3. basic.show_string("Hello!")
